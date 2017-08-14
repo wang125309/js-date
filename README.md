@@ -1,2 +1,3 @@
 # js-date
-类似微信demo
+
+js时间戳转化时间demo
