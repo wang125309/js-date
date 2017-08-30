@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js 时间戳demo</title>
+</head>
+<body>
+<div id="rule2"></div>
+<div id="rule3"></div>
+<div id="rule4"></div>
+<script type="text/javascript" src="../src/long_to_date.js"></script>
+<script>
+    document.getElementById('rule2').innerHTML = '显示时间：' + getFormatTime.format(Date.parse(new Date()) / 1000);
+    document.getElementById('rule3').innerHTML = '显示时间：' + getFormatTime.format(1502597545);
+    document.getElementById('rule4').innerHTML = '显示时间：' + getFormatTime.format(1502390645);
+</script>
+</body>
+</html>
